@@ -9,21 +9,32 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="container">
+    <main>
       <header>
         <nav class="navbar">
           <img class="logo" src="img/abstract_logo.PNG" alt="Abstract Logo" />
           <p class="para">Abstract | Help Center</p>
-          <input class="request" type="text" placeholder="Submit a request" />
+          <button class="request" type="submit">Submit a request</button>
           <button class="btn" type="submit">Sign in</button>
         </nav>
       </header>
-      <div class="hero"></div>
+      <div class="hero">
+        <div>
+          <p class="hero-heading">How can we help?</p>
+          <input type="text" placeholder="Search" /><i
+            class="bx bx-right-arrow-alt"
+          ></i>
+        </div>
+      </div>
       <main></main>
       <footer></footer>
-    </div>
+    </main>
   </body>
 </html>

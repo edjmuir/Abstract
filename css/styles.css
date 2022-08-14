@@ -11,13 +11,12 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-.container {
+main {
   height: 100vh;
-  width: 75vw;
-  margin: 15px auto;
+  width: 100vw;
 }
 
 .logo {
@@ -30,8 +29,6 @@ body {
 .navbar {
   background-color: var(--color-black);
   height: 75px;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
   display: flex;
   flex-direction: row;
 }
@@ -45,18 +42,19 @@ body {
 }
 
 .request {
-  background-color: var(--color-gray);
+  background: var(--color-gray);
   color: var(--color-white);
-  height: 33px;
-  width: 145px;
+  height: 40px;
+  width: 175px;
   border: none;
   border-radius: 6px;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 700;
-  outline: 2px solid var(--color-gray2);
+  outline: 1px solid var(--color-gray2);
   text-align: center;
-  margin-top: 22px;
-  margin-left: 435px;
+  margin-top: 20px;
+  margin-left: 735px;
+  padding: 10px;
 }
 
 .btn {
@@ -70,4 +68,39 @@ body {
   margin-top: 19px;
   margin-left: 12px;
   text-align: center;
+}
+
+.hero {
+  background-color: var(--hero-color);
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-heading {
+  font-size: 65px;
+  margin-top: -27px;
+  margin-bottom: 30px;
+}
+
+input {
+  border-radius: 5px;
+  border: none;
+  color: var(--color-gray2);
+  font-size: 20px;
+  outline: 1px solid var(--color-black);
+  height: 60px;
+  width: 615px;
+  margin-left: -45px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.bx {
+  position: absolute;
+  right: 400px;
+  font-size: 40px;
+  padding-top: 12px;
 }
