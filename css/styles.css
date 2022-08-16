@@ -33,12 +33,31 @@ main {
   flex-direction: row;
 }
 
-.para {
+.para a {
   color: var(--color-white);
+  display: inline-block;
   font-weight: 400;
   font-size: 18px;
-  margin-top: 27px;
   margin-left: -10px;
+  margin-right: 10px;
+  padding-top: 12px;
+  text-decoration: none;
+}
+
+.abstract:hover {
+  color: var(--color-gray2);
+}
+
+.help {
+  color: var(--color-white);
+  display: inline-block;
+  font-size: 18px;
+  padding-top: 13px;
+  text-decoration: none;
+}
+
+.help:hover {
+  text-decoration: underline;
 }
 
 .request {
@@ -55,19 +74,26 @@ main {
   margin-top: 20px;
   margin-left: 735px;
   padding: 10px;
+  cursor: pointer;
 }
 
 .btn {
   background-color: var(--btn-color);
   color: var(--color-white);
+  cursor: pointer;
   border-radius: 6px;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
-  height: 40px;
-  width: 100px;
+  height: 42px;
+  width: 115px;
   margin-top: 19px;
   margin-left: 12px;
   text-align: center;
+}
+
+.btn:hover {
+  background-color: var(--color-white);
+  color: var(--color-black);
 }
 
 .hero {
@@ -100,7 +126,7 @@ input {
 
 .bx {
   position: absolute;
-  right: 400px;
+  right: 415px;
   font-size: 40px;
   padding-top: 12px;
 }
