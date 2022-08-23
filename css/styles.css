@@ -36,7 +36,7 @@ main {
 .para a {
   color: var(--color-white);
   display: inline-block;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 18px;
   margin-left: -10px;
   margin-right: 10px;
@@ -44,7 +44,7 @@ main {
   text-decoration: none;
 }
 
-.abstract:hover {
+.abstract-text:hover {
   color: var(--color-gray2);
 }
 
@@ -126,7 +126,42 @@ input {
 
 .bx {
   position: absolute;
-  right: 415px;
+  right: 435px;
   font-size: 40px;
   padding-top: 12px;
+}
+
+.features {
+  display: flex;
+  flex-direction: row;
+}
+
+.feat-block1 {
+  margin-top: 7rem;
+  margin-left: 6rem;
+  width: 30%;
+}
+
+.feat-block1 h2 {
+  margin-left: 7rem;
+}
+
+.feat-block1 p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-left: 7rem;
+}
+
+.feat-block1 a {
+  color: var(--btn-color);
+  font-size: 18px;
+  margin-left: 7rem;
+  text-decoration: none;
+}
+
+.abstract-img {
+  float: left;
+  width: 85px;
+  height: 85px;
+  margin-top: 2rem;
 }
